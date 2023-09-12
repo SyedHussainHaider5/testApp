@@ -15,6 +15,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardComponent } from './home/card/card.component';
+import { HideAfterDirective } from './directives/hide-after.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CardComponent } from './home/card/card.component';
     HomeComponent,
     HeaderComponent,
     SidenavComponent,
-    CardComponent
+    CardComponent,
+    HideAfterDirective
   ],
   imports: [
     BrowserModule,
