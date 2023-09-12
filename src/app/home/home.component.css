@@ -1,0 +1,11 @@
+#main{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+#mainGrid{
+    display: grid;
+    column-gap: 80px;
+    row-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}

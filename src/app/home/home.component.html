@@ -1,0 +1,9 @@
+<div id="main">
+<div id="mainGrid">
+    <div  *ngFor="let result of cardData;">
+        <app-card image = {{result.image}} text = {{result.text}} buttonText = {{result.buttonText}} (alertMsgEvent) = "alertOn($event)"></app-card>
+       </div>
+    </div>
+  
+</div>
+

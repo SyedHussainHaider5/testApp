@@ -1,0 +1,7 @@
+#main{
+    background-color: rgb(196, 195, 195);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
